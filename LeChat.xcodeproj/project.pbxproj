@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8702DB241D4AAF1F009AA87D /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8702DB231D4AAF1F009AA87D /* ChatLogController.swift */; };
+		8702DB261D4ABC41009AA87D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8702DB251D4ABC41009AA87D /* CustomTabBarController.swift */; };
+		872CE6E11D5C8EAE00B311CC /* AllAlertsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE6E01D5C8EAE00B311CC /* AllAlertsHelper.swift */; };
 		873DDE791D46955B002453B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDE781D46955B002453B5 /* AppDelegate.swift */; };
 		873DDE7B1D46955B002453B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDE7A1D46955B002453B5 /* ViewController.swift */; };
-		873DDE7E1D46955B002453B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873DDE7C1D46955B002453B5 /* Main.storyboard */; };
 		873DDE811D46955B002453B5 /* LeChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 873DDE7F1D46955B002453B5 /* LeChat.xcdatamodeld */; };
 		873DDE831D46955B002453B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873DDE821D46955B002453B5 /* Assets.xcassets */; };
 		873DDE861D46955B002453B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873DDE841D46955B002453B5 /* LaunchScreen.storyboard */; };
+		873DDEEF1D480379002453B5 /* FriendControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDEEE1D480379002453B5 /* FriendControllerHelper.swift */; };
+		873DDF011D480844002453B5 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDEFD1D480844002453B5 /* Friend+CoreDataProperties.swift */; };
+		873DDF021D480844002453B5 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDEFE1D480844002453B5 /* Friend.swift */; };
+		873DDF031D480844002453B5 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDEFF1D480844002453B5 /* Message+CoreDataProperties.swift */; };
+		873DDF041D480844002453B5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DDF001D480844002453B5 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8702DB231D4AAF1F009AA87D /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		8702DB251D4ABC41009AA87D /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		872CE6E01D5C8EAE00B311CC /* AllAlertsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAlertsHelper.swift; sourceTree = "<group>"; };
 		873DDE751D46955A002453B5 /* LeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873DDE781D46955B002453B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873DDE7A1D46955B002453B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		873DDE7D1D46955B002453B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		873DDE801D46955B002453B5 /* LeChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeChat.xcdatamodel; sourceTree = "<group>"; };
 		873DDE821D46955B002453B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873DDE851D46955B002453B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873DDE871D46955B002453B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873DDEEE1D480379002453B5 /* FriendControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendControllerHelper.swift; sourceTree = "<group>"; };
+		873DDEFD1D480844002453B5 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		873DDEFE1D480844002453B5 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		873DDEFF1D480844002453B5 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		873DDF001D480844002453B5 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,18 @@
 			children = (
 				873DDE781D46955B002453B5 /* AppDelegate.swift */,
 				873DDE7A1D46955B002453B5 /* ViewController.swift */,
-				873DDE7C1D46955B002453B5 /* Main.storyboard */,
+				873DDEEE1D480379002453B5 /* FriendControllerHelper.swift */,
+				8702DB231D4AAF1F009AA87D /* ChatLogController.swift */,
+				8702DB251D4ABC41009AA87D /* CustomTabBarController.swift */,
+				872CE6E01D5C8EAE00B311CC /* AllAlertsHelper.swift */,
 				873DDE821D46955B002453B5 /* Assets.xcassets */,
 				873DDE841D46955B002453B5 /* LaunchScreen.storyboard */,
 				873DDE871D46955B002453B5 /* Info.plist */,
 				873DDE7F1D46955B002453B5 /* LeChat.xcdatamodeld */,
+				873DDEFD1D480844002453B5 /* Friend+CoreDataProperties.swift */,
+				873DDEFE1D480844002453B5 /* Friend.swift */,
+				873DDEFF1D480844002453B5 /* Message+CoreDataProperties.swift */,
+				873DDF001D480844002453B5 /* Message.swift */,
 			);
 			path = LeChat;
 			sourceTree = "<group>";
@@ -127,7 +148,6 @@
 			files = (
 				873DDE861D46955B002453B5 /* LaunchScreen.storyboard in Resources */,
 				873DDE831D46955B002453B5 /* Assets.xcassets in Resources */,
-				873DDE7E1D46955B002453B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +158,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8702DB241D4AAF1F009AA87D /* ChatLogController.swift in Sources */,
+				873DDF031D480844002453B5 /* Message+CoreDataProperties.swift in Sources */,
+				8702DB261D4ABC41009AA87D /* CustomTabBarController.swift in Sources */,
 				873DDE811D46955B002453B5 /* LeChat.xcdatamodeld in Sources */,
+				873DDF011D480844002453B5 /* Friend+CoreDataProperties.swift in Sources */,
 				873DDE7B1D46955B002453B5 /* ViewController.swift in Sources */,
+				873DDF021D480844002453B5 /* Friend.swift in Sources */,
+				873DDF041D480844002453B5 /* Message.swift in Sources */,
 				873DDE791D46955B002453B5 /* AppDelegate.swift in Sources */,
+				872CE6E11D5C8EAE00B311CC /* AllAlertsHelper.swift in Sources */,
+				873DDEEF1D480379002453B5 /* FriendControllerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		873DDE7C1D46955B002453B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				873DDE7D1D46955B002453B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		873DDE841D46955B002453B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -255,10 +275,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LouisNelson.LeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -266,10 +290,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LouisNelson.LeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -292,6 +319,7 @@
 				873DDE8C1D46955B002453B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
